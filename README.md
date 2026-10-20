@@ -217,7 +217,7 @@ stateDiagram-v2
 ## 10. Functional Simulation and Verification
 
 <p align="center">
-  <img src="assets/dice-simulation-waveform.jpg" alt="Simulation waveform of the dice game" width="900">
+  <img src="dice-simulation-waveform.jpg" alt="Simulation waveform of the dice game" width="900">
 </p>
 
 The testbench was simulated with Cadence tools and the waveform above was captured. The clock period is 10 time units, the run lasts 250 ns, and one full game fits in that window.
@@ -314,7 +314,7 @@ Summary from the report: 13 total paths, 13 passing, 0 failing, WNS = 0.000, TNS
 ## 12. Physical Design: Layout
 
 <p align="center">
-  <img src="assets/dice-layout-innovus.jpg" alt="Routed layout in Cadence Innovus" width="900">
+  <img src="dice-layout-innovus.jpg" alt="Routed layout in Cadence Innovus" width="900">
 </p>
 
 The image shows the finished layout in the **Cadence Innovus** layout window.
@@ -338,7 +338,7 @@ The image shows the finished layout in the **Cadence Innovus** layout window.
 ## 13. Design Rule Check (DRC)
 
 <p align="center">
-  <img src="assets/dice-drc-clean.jpg" alt="Innovus check_drc output with zero violations" width="800">
+  <img src="dice-drc-clean.jpg" alt="Innovus check_drc output with zero violations" width="800">
 </p>
 
 `check_drc` was run in the Innovus terminal. The log shows the verification stages (initialising, deleting existing violations, creating sub-areas and verifying) and ends with:
