@@ -1,4 +1,4 @@
-# 🎲 Two-Player Electronic Dice Game: RTL to GDSII
+#  Two-Player Electronic Dice Game: RTL to GDSII
 
 ![Verilog](https://img.shields.io/badge/Verilog-HDL-1F6FEB?style=flat-square)
 ![Flow](https://img.shields.io/badge/Flow-RTL%20to%20GDSII-6E40C9?style=flat-square)
